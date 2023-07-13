@@ -1,3 +1,3 @@
--- script INDEX idx_name_first_score on the table names
+-- script that creates an indec idx_name_first_score on the table names
 
-CREATE idx_name_first_score ON names(name(1), score)
+CREATE idx_name_first_score on names(name(1), score)
