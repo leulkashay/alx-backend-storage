@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Writing string to Redis
+Writing strings to Redis
 """
 import redis
 import uuid
 from typing import Union, Optional, Callable
-from functools import warps
+from functools import wraps
 
 
 def count_calls(method: Callable) -> Callable:
