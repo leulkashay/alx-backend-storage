@@ -2,7 +2,7 @@
 """ Top students """
 
 
-def top_student(mongo_collection):
+def top_students(mongo_collection):
     """ return all students by aggergate sorted score """
     top_stds = mongo_collection.aggregate([
              {
